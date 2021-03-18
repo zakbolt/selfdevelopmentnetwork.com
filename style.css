@@ -806,7 +806,7 @@ button:hover {
     }
 }
 
-@media only screen and (min-width: 778px) {
+@media only screen and (max-width: 778px) {
     .common-menu-area-width {
         width: 20%;
     }
