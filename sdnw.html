@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
+    <style>
+
+    </style>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gride</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <div class="main_div">
+        <section class="main-menu container">
+            <div class="main-menu-div">
+                <!-- left-menu area start -->
+                <div class="left-menu d-inline float-left common-menu-area-width ">
+                    <nav class=" navbar navbar-expand-sm ">
+                        <!-- Links -->
+                        <ul class="navbar-nav ">
+                            <li class="nav-item ">
+                                <a class="nav-link " href="# ">Home</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="# ">Membership</a>
+                            </li>
+
+                            <!-- Dropdown -->
+                            <li class="nav-item dropdown ">
+                                <a class="nav-link dropdown-toggle " href=" " id="navbardrop " data-toggle="dropdown ">
+                  Courses
+                </a>
+                                <div class="dropdown-menu ">
+                                    <a class="dropdown-item " href="# ">Self Development</a>
+                                    <a class="dropdown-item " href="# ">Membership</a>
+                                    <a class="dropdown-item " href="# ">Tools to Master your Life</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- //logo area start -->
+                <div class="logo-area d-inline float-left common-menu-area-width ">
+                    <div class="logo ">
+                        <a href="# ">
+                            <img width="120 " height="40.5 " src="https://www.ideabangla.com/benu/wp-content/uploads/2019/04/SDN_logo-compressed.png " class=" " alt=" " loading="lazy " sizes="(max-width: 400px) 100vw, 400px "> </a>
+                    </div>
+                </div>
+                <!-- right-menu area start -->
+                <div class="right-menu float-left common-menu-area-width ">
+                    <nav class="navbar navbar-expand-sm ">
+                        <!-- Links -->
+                        <ul class="navbar-nav ">
+                            <li class="nav-item ">
+                                <a class="nav-link " href="# ">Blog</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="# ">Contact Us</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="# ">Login</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- social-icon area start -->
+                <div class="social-icon-area ">
+                    <div class="social-icon-space">
+                        <a class="social-icon" href="https://www.facebook.com/Self-Development-Network-116473990197020 "><i class="fab fa-facebook-f "></i></a>
+                        <a class="social-icon" href="https://www.facebook.com/Self-Development-Network-116473990197020 "><i class="fab fa-twitter "></i></a>
+                        <a class="social-icon" href="https://www.facebook.com/Self-Development-Network-116473990197020 "><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://www.facebook.com/Self-Development-Network-116473990197020 "><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- slide-area start -->
+        <section class="slider-area">
+
+            <div class="slid-text-area container-fluid">
+                <div class="Slider-text-area-1">
+                    <p class="slider-text">Dare to fly higher</p>
+                </div>
+                <div class="flex Slider-text-area-2 typeing-text">
+                    <p class="t.text">I need to change my &nbsp</p>
+                    <p class="header-sub-title t.text" id="word"></p>
+                    <p class="header-sub-title blink t.text">|</p>
+                </div>
+
+            </div>
+
+
+            <script>
+                const words = ["career", " future", " goal"];
+                let i = 0;
+                let timer;
+
+                function typingEffect() {
+                    let word = words[i].split("");
+                    var loopTyping = function() {
+                        if (word.length > 0) {
+                            document.getElementById('word').innerHTML += word.shift();
+                        } else {
+                            deletingEffect();
+                            return false;
+                        };
+                        timer = setTimeout(loopTyping, 200);
+                    };
+                    loopTyping();
+                };
+
+                function deletingEffect() {
+                    let word = words[i].split("");
+                    var loopDeleting = function() {
+                        if (word.length > 0) {
+                            word.pop();
+                            document.getElementById('word').innerHTML = word.join("");
+                        } else {
+                            if (words.length > (i + 1)) {
+                                i++;
+                            } else {
+                                i = 0;
+                            };
+                            typingEffect();
+                            return false;
+                        };
+                        timer = setTimeout(loopDeleting, 200);
+                    };
+                    loopDeleting();
+                };
+
+                typingEffect();
+            </script>
+
+
+        </section>
+        <section class="search-area">
+            <div class="search-area-div">
+                <form method=" " name="" class="search-area-form" action="">
+                    <input type="text " name="" class="search-input" placeholder="enter keywords here">
+                    <button class="">Search</button>
+                </form>
+            </div>
+        </section>
+        <section class="portfolio-area">
+            <div class="portfolio_row">
+                <div class="portfolio portfolio-1">
+                    <div class="portfolio-image"></div>
+
+                    <span class="portfolio-price">$19.95</span>
+
+                    <a href="#" class="">
+                        <div class="portfolio-hover-image"></div>
+                    </a>
+
+                    <div class="portfolio_info">
+
+                        <h3 class="portfolio_title"><a href="#">Lifetime Membership for one low Price</a></h3>
+                        <div class="portfolio_details">
+                            <p>Get full access to the full Library of x62 Self Development Courses, products &amp; Software with a value of $2,232 for one low Membership Price!...</p>
+                        </div>
+
+
+                        <div class="portfolio_meta">
+                            <span class="ti-user"></span>&nbsp;
+                            <span class="card__student">
+                                1255						students					</span>
+                            <div class="dada">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- portfolio-2 -->
+                <div class="portfolio portfolio-1">
+                    <div class="portfolio-image"></div>
+
+                    <span class="portfolio-price">$19.95</span>
+
+                    <a href="#" class="">
+                        <div class="portfolio-hover-image"></div>
+                    </a>
+
+                    <div class="portfolio_info">
+
+                        <h3 class="portfolio_title"><a href="#">Lifetime Membership for one low Price</a></h3>
+                        <div class="portfolio_details">
+                            <p>Get full access to the full Library of x62 Self Development Courses, products &amp; Software with a value of $2,232 for one low Membership Price!...</p>
+                        </div>
+
+
+                        <div class="portfolio_meta">
+                            <span class="ti-user"></span>&nbsp;
+                            <span class="card__student">
+                                1255						students					</span>
+                            <div class="dada">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- portfolio-3 -->
+                <div class="portfolio portfolio-1">
+                    <div class="portfolio-image"></div>
+
+                    <span class="portfolio-price">$19.95</span>
+
+                    <a href="#" class="">
+                        <div class="portfolio-hover-image"></div>
+                    </a>
+
+                    <div class="portfolio_info">
+
+                        <h3 class="portfolio_title"><a href="#">Lifetime Membership for one low Price</a></h3>
+                        <div class="portfolio_details">
+                            <p>Get full access to the full Library of x62 Self Development Courses, products &amp; Software with a value of $2,232 for one low Membership Price!...</p>
+                        </div>
+
+
+                        <div class="portfolio_meta">
+                            <span class="ti-user"></span>&nbsp;
+                            <span class="card__student">
+                                                1255						students					</span>
+                            <div class="dada">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pagination_area">
+            <div class="pagination_div">
+                <div class="pagination">
+                    <span class="current ">1</span>
+                    <a href="#" class="inactive ">2</a>
+                    <a href="#" class="inactive ">3</a>
+                    <a href="#" class="inactive ">4</a>
+                    <a href="#" class="inactive ">5</a>
+                    <a href="#" class="inactive ">6</a>
+                </div>
+                <div class="pagination_detail ">
+                    Page 1 of 6
+                </div>
+            </div>
+        </section>
+        <style>
+
+        </style>
+        <section class="audio_area">
+            <div class="audio_area_div">
+                <div class="audio_text_area">
+                    <div class="text_area">
+                        <div class="titel_text_area">
+                            <div class="span_area">
+                                <span class="text">Self Development Course</span>
+                            </div>
+                        </div>
+                        <div class="sub_title_text_area">
+                            <div class="h2_area">
+                                <h2 class="sub_title">Get Instant Access To Free Audio Book</h2>
+                            </div>
+                        </div>
+                        <div class="paragraph_area">
+                            <div class="p_area">
+                                <div class="parea">
+                                    <p class="paragraph">Effortless comfortable full leather lining eye-catching unique detail to the toe low ‘cut-away’ sides clean and sleek. Polished finish elegant court shoe work.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="audio_play_area">
+                    <div class="audio_play">
+
+                        <div class="music_player">
+                            <div class="player">
+                                <div class="player_background">
+                                    <img src="https://www.ideabangla.com/benu/wp-content/uploads/2019/04/smiling-businesswoman-standing-with-arms-crossed-ULM4PGT-150x150.jpg" alt="" class="player_img">
+                                    <h2 class="player__title">Self Developement</h2>
+                                    <h3 class="player__artist">Jennifer Hardy</h3>
+                                    <div class="player__controls">
+                                        <a href="" class="player__controls__prev"><i class="fa fa-backward"></i></a>
+                                        <a href="" class="player__controls__play"><i class="fa fa-play"></i></a>
+                                        <a href="" class="player__controls__next"><i class="fa fa-forward"></i></a>
+                                    </div>
+                                    <div class="player__scrubber">
+                                        <div class="player__scrubber__fill" style="width: 0%;"></div>
+                                        <div class="player__scrubber__handle" style="left: 0%;"></div>
+                                    </div>
+                                    <div class="player__time">
+                                        <div class="player__time__played">0:00</div>
+                                        <div class="player__time__duration">5:23</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <div class="footer_area float-left">
+        <div class="footer">
+            <div class="footer_section_area">
+                <section class="subscribe_area">
+                    <div class="subscriber_area">
+                        <div class="subscribe_text">
+                            <div class="subs_headline">
+                                <span>Stay in the know on new free e-book</span>
+                            </div>
+                            <br/>
+                            <div class="subs_sub_headline">
+                                <h2>Sign up for our newsletter</h2>
+                            </div>
+                        </div>
+
+                        <div class="subscriber_form">
+                            <div class="subs_form_area">
+                                <div class="subs_form">
+                                    <form action="" class="">
+                                        <div class="mail_area">
+                                            <input type="email" name="" id="" placeholder="Your email address">
+                                            <input type="submit" value="Subscribe">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="footer_menu_area">
+                    <div class="container_area">
+                        <div class="footer_menu_area">
+                            <div class="footer_area_menu footer_area_1">
+                                <div class="menu_title">
+                                    <h2>Contact</h2>
+                                </div>
+                                <div class="menu_text">
+                                    <span><a href="#">If you have any questions about our courses, please do not hesitate to contact us. We are here to help!</a></span>
+                                </div>
+                                <div class="menu_mail">
+                                    <a href="#">support@selfdevelopmentnetwork.com</a>
+                                </div>
+                            </div>
+                            <div class="footer_area_menu footer_area_2">
+                                <div class="menu_title">
+                                    <h2>Explore</h2>
+                                </div>
+                                <div class="menu_content">
+                                    <div class="menus_eontent"> <span>Course</span> </div>
+                                    <div class="menus_eontent"><span>Self Development</span></div>
+                                    <div class="menus_eontent"><span>Membership</span></div>
+                                    <div class="menus_eontent"><span>Tools to master your life</span></div>
+                                </div>
+                            </div>
+                            <div class="footer_area_menu footer_area_3">
+                                <div class="menu_title">
+                                    <h2>Clients</h2>
+                                </div>
+                                <div class="menu_content">
+                                    <div class="menus_eontent"> <span>Membership Login</span> </div>
+                                    <div class="menus_eontent"><span>Privacy Policy</span></div>
+                                    <div class="menus_eontent"><span>Terms of Services</span></div>
+                                    <div class="menus_eontent"><span>Table of Contents</span></div>
+                                </div>
+                            </div>
+                            <div class="footer_area_menu footer_area_4">
+                                <div class="menu_title">
+                                    <h2>Get Connect</h2>
+                                </div>
+                                <div class="menu_text">
+                                    <span><a href="#">Are we friends on social media, yet? Use the buttons below to connect, then join my list to your right.</a></span>
+                                </div>
+                                <div class="menu_social_icon">
+                                    <div class="social-icon-area ">
+                                        <div class="social-icon-space">
+                                            <a class="social-icon-footer" href="https://www.facebook.com/Self-Development-Network-116473990197020 "><i class="fab fa-facebook-f "></i></a>
+                                            <a class="social-icon-footer" href="https://www.facebook.com/Self-Development-Network-116473990197020 "><i class="fab fa-twitter "></i></a>
+                                            <a class="social-icon-footer" href="https://www.facebook.com/Self-Development-Network-116473990197020 "><i class="fab fa-linkedin-in"></i></a>
+                                            <a class="social-icon-footer" href="https://www.facebook.com/Self-Development-Network-116473990197020 "><i class="fab fa-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="copyright_area">
+                    <div class="cop_area">
+                        <div class="cop_text">
+                            <span>© Copyright Zakaria All rights reserved.</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+</body>
+
+</html>

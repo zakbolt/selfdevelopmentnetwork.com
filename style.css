@@ -1,0 +1,819 @@
+body {
+    font-family: serif;
+}
+
+.nav-link {
+    color: #ffffff;
+    font-family: serif;
+}
+
+.common-menu-area-width {
+    width: 26.333%;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}
+
+.logo-area {
+    margin: 0px 0 0 130px;
+}
+
+.social-icon-area {
+    float: left;
+    padding: 40px 0 0 0;
+    font-size: 12px;
+}
+
+.social-icon {
+    padding: 0px 5px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.social-icon-footer {
+    color: #222222;
+    padding: 0px 10px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.typeing-text p {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.slid-text-area {
+    background-color: #ffffff;
+    background-image: url(https://ideabangla.com/benu/wp-content/uploads/2019/04/business-and-deadlines-P6MPLG7.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 1140px;
+    min-height: 600px;
+    padding: 230px 0px 0px 0px;
+    text-align: center;
+    color: #ffffff;
+    font-family: serif;
+    font-size: 13px;
+}
+
+.Slider-text-area-2 {
+    display: inline-flex;
+}
+
+.search-area-form {
+    padding: 60px 0;
+}
+
+.search-area-div {
+    padding: 0 40px 0 40px;
+    background-color: #fafafa;
+}
+
+.search-input {
+    background-color: #ffffff;
+    border: 1px solid#D7D8D6;
+    color: #222222;
+    width: 100%;
+    padding: 12px;
+    display: inline-block;
+    border-radius: 5px;
+    position: relative;
+}
+
+input[type=text] {
+    color: #fafafa;
+}
+
+button {
+    background-color: #0067DA;
+    border: 2px solid #0067DA;
+    color: #ffffff;
+    padding: .7em 2.5em .6em 2.5em;
+    top: 0;
+    border-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: relative;
+    left: 1px;
+    top: -50px;
+    float: right;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: #fff;
+    border-color: #0067DA;
+    color: #0067DA;
+}
+
+.portfolio {
+    text-align: left;
+    width: 30.66%;
+    margin-right: 4%;
+    position: relative;
+    background-color: #ffffff;
+    transition: all .2s cubic-bezier(0.175, 0.885, 0, 1);
+}
+
+.portfolio-image {
+    visibility: hidden;
+    background-image: url(https://www.ideabangla.com/benu/wp-content/uploads/2021/02/Untitled-design-480x466.png);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.portfolio-price {
+    position: absolute;
+    top: 215px;
+    background-color: #0067DA;
+    color: #ffffff;
+    font-size: 13px;
+    right: 20px;
+    display: inline-block;
+    font-weight: 900;
+    text-transform: uppercase;
+    border-radius: 50%;
+    width: 60px;
+    text-align: center;
+    line-height: 60px;
+    z-index: 2;
+}
+
+.portfolio-hover-image {
+    background-image: url(https://www.ideabangla.com/benu/wp-content/uploads/2021/02/Untitled-design-480x466.png);
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    transition: 0.2s all ease-out;
+}
+
+.portfolio_info {
+    background-color: #ffffff;
+    z-index: 2;
+    padding: 25px 30px;
+    text-align: left;
+}
+
+.portfolio_title {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 1.7;
+    text-transform: none;
+}
+
+.portfolio_title a {
+    color: #000;
+    text-decoration: none;
+}
+
+.portfolio_details {
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.portfolio_details p {
+    color: #000000;
+    padding: 5px 0px;
+    font-family: serif;
+}
+
+.portfolio_meta {
+    color: #000000;
+    margin-top: 15px;
+    font-weight: 900;
+    font-size: 13px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.portfolio_row {
+    display: flex;
+}
+
+.portfolio_row,
+.portfolio-area,
+.search-area {
+    background-color: #fafafa;
+    padding: 0px 40px;
+}
+
+.ti-user:before {
+    content: "\e602";
+}
+
+.dada span {
+    color: gold !important;
+    font-size: 25px !important;
+}
+
+.portfolio:hover {
+    background: #000000 !important;
+}
+
+.portfolio-1:hover .portfolio-hover-image {
+    height: 100% !important;
+    opacity: 0.5;
+}
+
+.portfolio-1:hover .portfolio_details {
+    background-color: transparent !important;
+    position: relative;
+    color: #fff !important;
+}
+
+.portfolio-1:hover .portfolio_info {
+    opacity: 1;
+}
+
+.pagination_area {
+    display: flow-root;
+    background-color: #fafafa;
+}
+
+.pagination_div {
+    padding: 0px 80px;
+    background-color: #fafafa;
+}
+
+.pagination {
+    margin: 40px 0 60px 0;
+    float: left;
+    clear: both;
+}
+
+.pagination p {
+    display: block;
+    width: 100%;
+}
+
+.pagination a,
+.pagination span {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    display: inline-block;
+    text-align: center;
+    color: #000;
+    background: #fafafa;
+    margin-right: 15px;
+    overflow: hidden;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.current {
+    color: #fff !important;
+}
+
+.pagination a:hover {
+    background: transparent !important;
+    color: #222;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.pagination span,
+.pagination a:hover {
+    font-weight: bold;
+    background: #0067DA;
+}
+
+.pagination_detail {
+    margin-top: 40px;
+    float: right;
+    font-size: 11px;
+    text-transform: uppercase !important;
+    letter-spacing: 2px;
+}
+
+
+/* blink css */
+
+.flex p {
+    color: #fff;
+    text-decoration: none;
+}
+
+.blink {
+    animation: blink 0.5s infinite;
+}
+
+@keyframes blink {
+    to {
+        opacity: .0;
+    }
+}
+
+.header-sub-title {
+    color: #fff;
+    font-size: 18px;
+}
+
+.audio_area {
+    background-image: url(https://ideabangla.com/benu/wp-content/uploads/2019/04/wooden-table-VKCH2UB.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 0% 15% 0% 15%;
+    position: relative;
+}
+
+.audio_area_div {
+    min-height: 650px;
+    max-width: 1140px;
+    align-items: center;
+    display: flex;
+}
+
+.audio_text_area {
+    width: 50%;
+    position: relative;
+    display: flex;
+}
+
+.text_area {
+    align-items: center;
+    align-content: center;
+    padding: 0% 15% 0% 0%;
+}
+
+.titel_text_area {
+    margin-bottom: 20px;
+}
+
+.text {
+    color: #0067da;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-style: inherit;
+    font-family: serif;
+}
+
+.sub_title_text_area {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.h2_area {
+    margin: 10px 0px 0px 0px;
+    padding: 0% 0% 0% 0%;
+}
+
+.sub_title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.3em;
+    font-family: serif;
+}
+
+.paragraph_area {
+    animation-duration: .75s;
+    color: #000;
+}
+
+.p_area {
+    transition: background .3s, border .3s, border-radius .3s, box-shadow .3s, -webkit-border-radius .3s, -webkit-box-shadow .3s;
+}
+
+.paragraph {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+
+/* audio css */
+
+.audio_play_area {
+    width: 50%;
+    display: flex;
+    position: relative;
+}
+
+.audio_play {
+    align-content: flex-end;
+    align-items: flex-end;
+    padding: 0% 3% 0% 3%;
+    width: 100%;
+    position: relative;
+}
+
+.player {
+    background-image: url(https://www.ideabangla.com/benu/wp-content/uploads/2019/04/smiling-businesswoman-standing-with-arms-crossed-ULM4PGT-150x150.jpg);
+    height: 600px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 580px;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 10%), 0 40px 35px -20px rgb(0 0 0 / 20%), 0 40px 35px -40px rgb(0 0 0 / 10%);
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    bottom: -20px;
+    right: -20px;
+    background-position: center top;
+    transition: .5s;
+}
+
+.player_background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 45px;
+    left: -20px;
+    bottom: -20px;
+    right: -20px;
+    background-position: center top;
+    transition: .5s;
+}
+
+.player_img {
+    width: 160px;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 20%), 0 40px 35px -20px rgb(0 0 0 / 30%);
+    transition: .5s;
+}
+
+.player__title {
+    color: #ffffff;
+    margin-top: 20px;
+    z-index: 55;
+    font-family: serif;
+    font-weight: 700;
+}
+
+.player__artist {
+    color: #ffffff;
+    opacity: .8;
+    font-size: .8em;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-weight: 300;
+    z-index: 1;
+    font-family: serif;
+}
+
+.player__controls {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 10%;
+    margin-top: 40px;
+    z-index: 1;
+}
+
+.player__controls__prev,
+.player__controls__play,
+.player__controls__next {
+    font-size: 34px;
+    color: #ffffff;
+    cursor: pointer;
+    position: relative;
+}
+
+.player__controls__prev,
+.player__controls__play,
+.player__controls__next:hover {
+    font-size: 40px;
+    color: #ffffff;
+    cursor: pointer;
+    position: relative;
+}
+
+.player__scrubber {
+    width: 80%;
+    margin: 30px 10% 5px;
+    height: 2px;
+    padding: 6px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.player__scrubber::before {
+    background: #ffffff;
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    z-index: 0;
+}
+
+.player__scrubber__fill {
+    width: 0%;
+    background: #ffffff;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    height: 2px;
+}
+
+.player__scrubber__handle {
+    position: absolute;
+    left: 0%;
+    top: -3px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-left: -8px;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+.player__time {
+    width: 80%;
+    font-weight: 300;
+    font-size: .8em;
+    display: inline-flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.music_player .player .player__controls>a:hover {
+    transform: scale(1.2) !important;
+    color: #ffffff;
+}
+
+.main_div {
+    margin-bottom: 840px;
+    position: relative;
+    z-index: 1;
+    top: 0;
+}
+
+.footer_area {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.subscribe_area {
+    background-color: #122947;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 70px 0px 80px 0px;
+    position: relative;
+}
+
+.subscriber_area {
+    max-width: 1140px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.subscribe_text {
+    max-width: 35%;
+    position: relative;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.subs_headline {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.subs_headline span {
+    color: #fea2a7;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.subs_sub_headline {
+    text-align: left;
+    width: 100%;
+    position: relative;
+    padding-left: 10px;
+}
+
+.subs_sub_headline h2 {
+    font-size: 40px;
+    color: #ffffff;
+    font-family: serif;
+}
+
+.subscriber_form {
+    width: 65%;
+    position: relative;
+    margin-top: 50px;
+}
+
+.subs_form_area {
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+
+.subs_form form {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+.mail_area {
+    text-align: left;
+}
+
+.mail_area input[type=email] {
+    background: transparent !important;
+    color: #fff;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    width: calc(100% - 250px);
+    border-radius: 0 !important;
+    margin-right: 10px;
+    font-family: "Jost";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 1.7;
+    text-transform: none;
+    padding: 10px;
+}
+
+.mail_area input[type=submit] {
+    background: transparent !important;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-left: 10px;
+    border-radius: 50px;
+    font-family: "Jost";
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    text-transform: uppercase;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+}
+
+.footer_menu_area {
+    padding: 60px 0px 40px 0px;
+    position: relative;
+}
+
+.container_area {
+    max-width: 1140px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.footer_menu_area {
+    width: 100%;
+    position: relative;
+    display: flex;
+    padding-top: 70px;
+}
+
+.footer_area_menu {
+    width: 25%;
+    position: relative;
+}
+
+.menu_title,
+.menu_text,
+.menu_mail {
+    text-align: left;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.menu_title h2 {
+    font-size: 20px;
+    font-family: serif;
+}
+
+.menu_text {
+    margin-right: 20px;
+}
+
+.menu_text span a {
+    color: #222222;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.4px;
+    text-decoration: none;
+}
+
+.menu_mail a {
+    color: #222222;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.menu_content .menus_eontent {
+    margin-bottom: 20px;
+}
+
+.footer_area_2 {
+    padding-left: 30px;
+}
+
+.copyright_area {
+    position: relative;
+}
+
+.cop_area {
+    max-width: 1140px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.cop_text {
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    align-self: center;
+    position: relative;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.cop_text span {
+    font-size: 14px;
+    font-family: serif;
+}
+
+@media only screen and (max-width: 1200px) {
+    .common-menu-area-width {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .common-menu-area-width {
+        width: 25%;
+    }
+    .main_div {
+        width: 1140px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .common-menu-area-width {
+        width: 25%;
+    }
+    .main_div {
+        width: 1140px;
+    }
+}
+
+@media only screen and (min-width: 778px) {
+    .common-menu-area-width {
+        width: 20%;
+    }
+    .main_div {
+        width: 1140px;
+    }
+    .social-icon-area {
+        float: right;
+    }
+}
